@@ -1,9 +1,9 @@
-module github.com/wxxiong6/kratos-pkg-zap_log
+module github.com/wxxiong6/kratos-pkg
 
 go 1.18
 
 require (
-	github.com/go-kratos/kratos/v2 v2.3.1
+	github.com/go-kratos/kratos/v2 v2.4.0
 	go.uber.org/zap v1.21.0
 )
 
