@@ -45,10 +45,7 @@ func Logger() *ZapLogger {
 }
 
 // NewZapLogger return a zap logger.
-func NewZapLogger(encoder zapcore.EncoderConfig, level zap.AtomicLevel, opts ...zap.Option) *ZapLogger {
 	//日志切割
-	// writeSyncer := getLogWriter()
-	//设置日志级别
 	level.SetLevel(zap.InfoLevel)
 
 	//开发模式下打印到标准输出
